@@ -24,6 +24,7 @@ body {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
   border-radius: 16px;
   margin: 30px 20px;
+  padding: 30px;
 }
 
 .hero-content {
@@ -47,6 +48,7 @@ body {
   font-weight: 700;
   margin-bottom: 8px;
   color: #111;
+  font-family: 'Poppins', sans-serif;
 }
 
 .subtitle {
@@ -87,7 +89,7 @@ body {
 .navbar {
   position: sticky;
   top: 0;
-  background-color: hsl(0, 0%, 100%);
+  background-color: #fff;
   box-shadow: 0 2px 4px rgba(0,0,0,0.04);
   z-index: 100;
 }
@@ -106,27 +108,18 @@ body {
   font-weight: 600;
   font-size: 1rem;
   color: #333;
-  transition: color 0.3s ease;
-  font-weight: 600;
-  font-size: 1rem;
-  text-decoration: none;
-  color: #333;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease;
   padding: 8px 12px;
   border-radius: 6px;
 }
 
 .navbar a:hover {
- color: #4caf50;
+  color: #4caf50;
   background-color: #e8f5e9;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .nav-content {
-    gap: 25px;
-  }
-
   .nav-content {
     gap: 25px;
   }
@@ -141,7 +134,7 @@ body {
   }
 }
 
-
+/* Social Links */
 .social-links a {
   color: #4caf50;
   font-size: 1.6rem;
@@ -183,9 +176,7 @@ body {
   color: #2e7d32;
 }
 
-
-
-/* project Design */
+/* Project Design */
 #projects {
   padding: 60px 20px;
   background: #f9f9f9;
@@ -248,33 +239,40 @@ body {
   text-decoration: underline;
 }
 
+/* Publications */
+#publications {
+  padding: 60px 20px;
+  background: #eef4ff;
+}
 
-/* publications */
- #publications {
-    padding: 60px 20px;
-    background: #eef4ff;
-  }
-  #publications h2 {
-    font-size: 2rem;
-    text-align: center;
-    margin-bottom: 30px;
-    font-family: 'Poppins', sans-serif;
-  }
-  .publication {
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 15px 0;
-    background: white;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-  }
-  .publication h3 {
-    margin-top: 0;
-    font-family: 'Poppins', sans-serif;
-  }
-  .publication a {
-    display: inline-block;
-    margin-top: 10px;
-    color: #007BFF;
-    text-decoration: none;
-  }
+#publications h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.publication {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px 0;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.publication h3 {
+  margin-top: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.publication a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.publication a:hover {
+  text-decoration: underline;
+}
