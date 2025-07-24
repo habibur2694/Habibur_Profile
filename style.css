@@ -276,3 +276,52 @@ body {
 .publication a:hover {
   text-decoration: underline;
 }
+
+
+/* Compact Footer Styles */
+.footer-bottom {
+  background-color: #488f4b;  /* ব্ল্যাক ব্যাকগ্রাউন্ড */
+  color: #1b1a1a;             /* হালকা ধূসর টেক্সট কালার */
+  text-align: center;
+  border-top: 1px solid #444;
+  padding: 10px 0;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+
+
+.btn-download-resume {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #91d593;
+  color: rgb(28, 23, 23);
+  font-weight: 5;
+  font-size: 2px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.50rem;      /* ছোট ফন্ট সাইজ */
+  padding: 3px 8px;       /* প্যাডিং একটু কমিয়ে কম্প্যাক্ট */
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0 2px 6px rgba(76, 175, 80, 0.5);
+  cursor: pointer;
+  line-height: 1;   
+  user-select: none;
+}
+
+.btn-download-resume i {
+  font-size: 1.5rem;       /* আইকনের সাইজও একটু ছোটানো */
+  transition: transform 0.3s ease;
+}
+
+.btn-download-resume:hover {
+  background-color: #7eca82;
+  color: white;
+  box-shadow: 0 4px 12px rgba(56, 142, 60, 0.7);
+}
+
+.btn-download-resume:hover i {
+  transform: translateX(3px);
+}
