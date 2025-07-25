@@ -230,7 +230,6 @@ body {
 .project-card a {
   display: block;
   margin: 10px 15px 20px;
-  color: #007bff;
   text-decoration: none;
   font-weight: bold;
 }
@@ -321,4 +320,125 @@ body {
 
 .btn-download-resume:hover i {
   transform: translateX(2px);
+}
+
+.view-btn {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.view-btn:hover {
+  background-color: #388e3c;
+  transform: scale(1.05);
+}
+
+
+/* experience-section */
+
+.experience-section {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.experience-section h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #4CAF50;
+  display: inline-block;
+}
+
+.experience-card {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #fffbfb;
+  border-left: 4px solid #4CAF50;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgb(255, 252, 252);
+}
+
+.experience-card h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #4CAF50;
+}
+
+.experience-card .company {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.experience-card ul {
+  padding-left: 20px;
+}
+
+.experience-card ul li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+
+.research-section {
+  padding: 40px 20px;
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.research-section h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #4CAF50;
+  display: inline-block;
+}
+
+.research-card {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #2b2b2b;
+  border-left: 4px solid #4CAF50;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.research-card h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #4CAF50;
+}
+
+.research-card .details {
+  font-size: 14px;
+  color: #ccc;
+  margin: 5px 0 10px 0;
+}
+
+.research-card p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.research-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.research-card a:hover {
+  background-color: #388e3c;
 }
